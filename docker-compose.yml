@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8003:80"
+    volumes:
+      - ./:/var/www/html
+      - lumen_vendor:/var/www/html/vendor
+    command: apache2-foreground
+
+volumes:
+  lumen_vendor:
