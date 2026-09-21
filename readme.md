@@ -1,21 +1,26 @@
-# Lumen PHP Framework
+# Web music player
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+Simple web music player with basic controls and .mp3 import.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Prerequisites
 
-## Official Documentation
+Make sure Docker and Docker Compose are installed and Docker Desktop is running.
+    
+## Run Locally
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+1. Clone the project
 
-## Security Vulnerabilities
+```bash
+  git clone git@github.com:brlivramento/listenx.git
+  cd listenx
+```
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+2. Build docker
 
-## License
+```bash
+  docker compose up --build
+```
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Demo
+
+<img width="1502" height="937" alt="Captura de tela 2026-09-20 224012" src="https://github.com/user-attachments/assets/46aa079c-b407-4b38-ac36-0fea5b96bd1c" />
