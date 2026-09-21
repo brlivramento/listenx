@@ -2,6 +2,8 @@
 
 Simple web music player with basic controls and .mp3 import.
 
+This project was conducted in 2019; it is a re-import.
+
 ## Prerequisites
 
 Make sure Docker and Docker Compose are installed and Docker Desktop is running.
