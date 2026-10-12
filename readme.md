@@ -30,4 +30,4 @@ docker compose up --build
 
 ## Demo
 
-<img width="1570" height="862" alt="listenx" src="https://github.com/user-attachments/assets/ac9b2e42-5f69-41ca-9f72-446e37dbc280" />
+<img width="1497" height="813" alt="Captura de tela 2026-10-12 201135" src="https://github.com/user-attachments/assets/6f942ebf-33c9-4d4d-b88e-9a6e7ea48adb" />
